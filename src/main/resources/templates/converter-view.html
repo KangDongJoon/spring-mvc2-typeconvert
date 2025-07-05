@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>${number}: <sapn th:text="${number}"></sapn></li>
+    <li>${{number}}: <sapn th:text="${{number}}"></sapn></li>
+    <li>${ipPort}: <sapn th:text="${ipPort}"></sapn></li>
+    <li>${{ipPort}}: <sapn th:text="${{ipPort}}"></sapn></li>
+</ul>
+
+</body>
+</html>
